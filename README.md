@@ -252,9 +252,9 @@ Choose the Subnet associations tab.
 
 Choose Edit subnet associations.
 
-Select the row with Public Subnet.
+Select the row with Public Subnet..
 
-Choose Save associations.
+Choose Save associations..
 
 The public subnet is now public because it has a route table entry that sends traffic to the internet through the internet gateway.
 
