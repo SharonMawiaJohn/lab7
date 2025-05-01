@@ -51,6 +51,7 @@ You begin by using Amazon VPC to create a new VPC.
 A VPC is a virtual network that is dedicated to your Amazon Web Services (AWS) account. It is logically isolated from other virtual networks in the AWS Cloud. You can launch AWS resources, such as Amazon Elastic Compute Cloud (Amazon EC2) instances, into the VPC. You can configure the VPC by modifying its IP address range and create subnets. You can also configure route tables, network gateways, and security settings.
 
 On the AWS Management Console, in the search box, enter and choose VPC to open the Amazon VPC console.
+![alt text](image-1.png)
 
 The VPC console provides a wizard that can automatically create several VPC architectures. However, in this lab, you create the VPC components manually.
 
