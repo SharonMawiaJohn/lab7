@@ -98,7 +98,7 @@ In this task, you create a public subnet and a private subnet:
 
 Following image shows VPC with Public and Private subnet in one Availability zone 
 
- 
+ ![alt text](image-4.png)
 
 Task 2.1: Creating a public subnet
 In this task, you create a public subnet. The public subnet will be used for internet-facing resources.
@@ -106,6 +106,8 @@ In this task, you create a public subnet. The public subnet will be used for int
 In the left navigation pane, choose Subnets.
 
 Choose Create subnet.
+
+![alt text](image-5.png)
 
 On the Create subnet page, configure the following options:
 
@@ -133,6 +135,8 @@ Choose Save.
 
   Although this subnet is named Public Subnet, it is not yet public. A public subnet must have an internet gateway, which you attach in the next task.
 
+  ![alt text](image-6.png)
+
 Task 2.2: Creating a private subnet
 In this task, you create a private subnet. The private subnet will be used for resources that must remain isolated from the internet.
 
@@ -151,6 +155,7 @@ IPv4 subnet CIDR block: Enter 10.0.2.0/23.
  The 10.0.2.0/23 CIDR block includes all IP addresses that start with 10.0.2.x and 10.0.3.x. This is larger than the public subnet because most resources should be kept private unless they specifically must be accessible from the internet.
 
 Choose Create subnet.
+![alt text](image-7.png)
 
   Your VPC now has two subnets. However, the public subnet is totally isolated and cannot communicate with resources outside the VPC. Next, you configure the public subnet to connect to the internet through an internet gateway.
 
@@ -174,6 +179,7 @@ Choose Create internet gateway.
 For Name tag, enter Lab IGW.
 
 Choose Create internet gateway.
+![alt text](image-8.png)
 
 You can now attach the internet gateway to your Lab VPC.
 
@@ -182,6 +188,8 @@ Choose Actions, and then choose Attach to VPC.
 For Available VPCs, choose Lab VPC.
 
 Choose Attach internet gateway.
+
+![alt text](image-9.png)
 
   This action attaches the internet gateway to your Lab VPC. Although you created an internet gateway and attached it to your VPC, you must also configure the public subnet route table so that it uses the internet gateway.
 
@@ -235,6 +243,8 @@ Destination: Enter 0.0.0.0/0.
 Target: Choose Internet Gateway and then, from the list, choose Lab IGW.
 
 Choose Save changes.
+
+![alt text](image-10.png)
 
 Next, you associate this new route table with the public subnet.
 
