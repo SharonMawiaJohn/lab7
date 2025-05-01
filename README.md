@@ -24,6 +24,8 @@ This lab requires approximately 30 minutes to complete.
 AWS service restrictions
 In this lab environment, access to AWS services and service actions might be restricted to the ones that are needed to complete the lab instructions. You might encounter errors if you attempt to access other services or perform actions beyond the ones that are described in this lab.
 
+![alt text](image.png)
+
 At the end of this lab, your architecture will look like the following example:
 
 Following image shows the final Architecture layout with networking components such as VPC, Public subnets and the Application server on the EC2 instance
