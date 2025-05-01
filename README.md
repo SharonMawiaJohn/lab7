@@ -62,7 +62,7 @@ A default VPC is provided so that you can launch resources as soon as you start 
 Your VPC will have a Classless Inter-Domain Routing (CIDR) range of 10.0.0.0/16, which includes all IP address that start with 10.0.x.x. It contains more than 65,000 addresses. You later divide the addresses into separate subnets.
 
 Choose Create VPC. 
-
+![alt text](image-2.png)
 On the Create VPC page, configure the following options:
 
 Name tag - optional: Enter Lab VPC.
